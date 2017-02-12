@@ -1,0 +1,604 @@
+html {
+	font-size: 100%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin:0px auto;
+	padding:0px;
+	font-size: 21px;
+	font-family: "Times New Roman",  Verdana, Arial, Helvetica, serif;
+}
+
+#container {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	min-height: 100%;
+}
+
+img.sigle {
+	height: 144px;
+	width: 200px;
+}
+
+div#north {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	background-color: transparent;
+	height: 144px;
+	width: 800px;
+}
+
+div#north a:hover {
+	font-size: 24px;
+	background-color: #FFFFFF;
+	color: #006666;
+	margin-top: 5px;
+}
+
+div#north p.legend {
+	position: absolute;
+	top: 50px;
+	left: 250px;
+	margin: 10;
+	text-align: left;
+	font-family: "Times New Roman",  Calibri, Verdana, Arial, Helvetica, serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 13px;
+	font-variant: normal;
+	color: red;
+	text-decoration: none;
+}
+
+div#north  .accueil{
+	position: absolute;
+	background-color: inherit;
+	text-decoration: none;
+	top: 20px;
+	left: 500px;
+	color: #006666;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+div#north  .contact{
+	position: absolute;
+	background-color: inherit;
+	text-decoration: none;
+	top: 20px;
+	left: 600px;
+	color: #006666;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+div#center {
+	position: absolute;
+	top: 144px;
+	left: 200px;
+	background-color: transparent;
+	height: 126px;
+	width: 800px;
+}
+
+div#center a:hover {
+	font-size: 30px;
+	background-color: #FFFFFF;
+	color: #006666;
+	margin-top: 5px;
+}
+
+div#center  .objet{	
+position: absolute;
+	top: 20px;
+	left: 50px;
+	margin: 0;
+	text-align: left;
+	font-family: "Times New Roman",  Georgia;
+	font-size: 23px;
+	color: #006666;
+	font-weight: bold;
+}
+
+div#center  .tel{	position: absolute;
+	top: 110px;
+	left: 50px;
+	margin: 0;
+	text-align: left;
+	font-family: "Times New Roman",  Georgia;
+	font-size: 23px;
+	color: red;
+	font-weight: bold;
+}
+
+div#center  .delai{	position: absolute;
+	top: 150px;
+	left: 50px;
+	margin: 0;
+	text-align: left;
+	font-family: "Times New Roman",  Georgia;
+	font-size: 23px;
+	color: red;
+	font-weight: bold;
+}
+
+
+div#center  .plomberie {
+	position: absolute;
+	background-color: #FFFFFF;
+	font-family: "Times New Roman",  Verdana, Arial, Helvetica, serif;
+	text-decoration: none;
+	top: 230px;
+	left: 30px;
+	color: #006666;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+div#center  .installation{
+	position: absolute;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	top: 330px;
+	left: 30px;
+	color: #006666;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+div#center  .wc{
+	position: absolute;
+	background-color: inherit;
+	text-decoration: none;
+	top: 430px;
+	left: 30px;
+	color: #006666;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+div#center  .autre{
+	position: absolute;
+	background-color: inherit;
+	text-decoration: none;
+	top: 480px;
+	left: 30px;
+	color: #006666;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+img.photo{position:absolute;
+	top:90px;
+	left: 500px;
+}
+
+div#center p.droit{float: right;
+	border:1px solid #006400;
+	width: 240px;
+	margin:10px;
+	padding: 5px;
+	font-family: "Times New Roman",  Verdana, Arial, Helvetica, serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 18px;
+	font-variant: normal;
+	color: #006666;
+	text-decoration: none;
+	text-align:justify;
+}
+
+div#west {
+	position: absolute;
+	top: 144px;
+	left: 0;
+	height: 380px;
+	width: 200px;
+}
+
+img.robinet {
+	height: 380px;
+	width: 200px;
+}
+
+img.carrelage {
+	position: relative;
+	top: 50px;
+	height: 100px;
+	width: 160px;
+}
+
+div#center2 {
+	position: absolute;
+	top: 30;
+	left: 100px;
+	background-color: transparent;
+	height: 126px;
+	width: 800px;
+}
+
+div#center2  .objet{	
+position: absolute;
+	top: 20px;
+	left: 50px;
+	margin: 0;
+	text-align: left;
+	font-family: "Times New Roman",  Georgia;
+	font-size: 23px;
+	color: #006666;
+	font-weight: bold;
+}
+
+div#center2 p.droit{float: right;
+	border:1px solid #006400;
+	width: 240px;
+	margin:10px;
+	padding: 5px;
+	font-family: "Times New Roman",  Verdana, Arial, Helvetica, serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 18px;
+	font-variant: normal;
+	color: #006666;
+	text-decoration: none;
+	text-align:justify;
+}
+
+
+
+div#center2 p.text {
+	position: relative;
+	top: 50px;
+	margin-bottom: 100px;
+	font-family: "Times New Roman",  Verdana, Arial, Helvetica, serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 24px;
+	font-variant: normal;
+	color: #006666;
+	text-decoration: none;
+	text-align:justify;
+}
+
+div#center2 li {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-family: "Times New Roman",  Verdana, Arial, Helvetica, serif;
+	font-size: 23px;
+	font-style: normal;
+	line-height: 23px;
+	font-variant: normal;
+	color: #006666;
+	text-decoration: none;
+	text-align:justify;
+}
+
+div#west2 {
+	position: absolute;
+	top: 300px;
+	left: 600px;
+	height: 345px;
+	width: 460px;
+}
+
+div#west2  img.chiottes {
+	height: 345;
+	width: 460;
+}
+
+div#center3 {
+	position: absolute;
+	top: 30;
+	left: 200px;
+	background-color: transparent;
+	height: 126px;
+	width: 800px;
+}
+
+div#center3  .objet{	
+position: absolute;
+	top: 10px;
+	left: 50px;
+	margin: 0;
+	text-align: left;
+	font-family: "Times New Roman",  Georgia;
+	font-size: 23px;
+	color: #006666;
+	font-weight: bold;
+}
+
+div#center3 p.text {
+	position: relative;
+	top: 20px;
+	margin-top: 35px;
+	margin-bottom: 5px;
+	font-family: "Times New Roman",  Verdana, Arial, Helvetica, serif;
+	font-size: 24px;
+	font-style: normal;
+	line-height: 24px;
+	font-variant: normal;
+	color: #006666;
+	text-decoration: none;
+	text-align:justify;
+}
+
+div#west3 {
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	height: 345px;
+	width: 460px;
+}
+
+div#west3 img.cousu {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	height: 300px;
+	width: 400px;
+}
+
+div#west3 img.pret {
+	position: absolute;
+	top: 50px;
+	left: 450px;
+	height: 300px;
+	width: 400px;
+}
+
+#carroussel{
+   top: 300px;
+   left: 200px;
+   width:550px;
+   height:300px;
+   border:solid 0px black;
+   position:absolute;
+   -webkit-perspective:600px;
+   -webkit-perspective-origin:10% 50%;
+   -moz-perspective:800px;
+   -moz-perspective-origin:10% 50%;
+   -o-perspective:800px;
+   -o-perspective-origin:10% 50%;
+   perspective:800px;
+   perspective-origin:10% 50%;
+} 
+
+.diapositive{
+   position:absolute;
+   height:300px;
+   width:300px;
+   opacity:0.9;
+   border:solid 1px black;
+   border-radius:8px;
+   top:75px;
+   left:250px;
+   background-size:cover;
+   -webkit-transform-origin:0% 50%;
+   -moz-transform-origin:0% 50%;
+   -o-transform-origin:0% 50%;
+   transform-origin:0% 50%;
+}
+
+#parent{
+   position:absolute;
+
+   -webkit-animation:tourne 30s linear infinite;
+   -webkit-transform-origin:250px 50%;
+   -webkit-transform-style: preserve-3d;
+   -moz-animation:tourne 30s linear infinite;
+   -moz-transform-origin:250px 50%;
+   -moz-transform-style: preserve-3d;
+   -o-animation:tourne 30s linear infinite;
+   -o-transform-origin:250px 50%;
+   -o-transform-style: preserve-3d;
+   animation:tourne 30s linear infinite;
+   transform-origin:250px 50%;
+   transform-style: preserve-3d;
+   -ms-transform-style: none;
+} 
+
+
+	@-webkit-keyframes tourne{
+		from{-webkit-transform:rotateY(0deg); }
+		to{-webkit-transform:rotateY(360deg); }
+	}
+	@-moz-keyframes tourne{
+		from{-moz-transform:rotateY(0deg);}
+		to{-moz-transform:rotateY(360deg); }
+	}
+	@-o-keyframes tourne{
+		from{-o-transform:rotateY(0deg); }
+		to{-o-transform:rotateY(360deg); }
+	}
+	@keyframes tourne{
+		from{transform:rotateY(0deg); }
+		to{transform:rotateY(360deg); }
+	}
+
+div#center7 {
+	position: absolute;
+	color: #FFFFFF;
+	top: 140px;
+	left: 250px;
+	width: 500px;
+	height: 600px;
+}
+
+div#center7 p {
+	position: relative;
+	font-family: "Times New Roman",  Verdana, Arial, Helvetica, serif;
+	font-size: 15px;
+	font-style: normal;
+	line-height: 17px;
+	font-variant: normal;
+	color: #006666;
+	text-decoration: none;
+	text-align:justify;
+}
+
+div#center7 p.titre{
+	position: relative;
+	font-family: "Times New Roman",  Georgia;
+	font-size: 18px;
+	color: #006666;
+	font-weight: bold;
+}
+
+div#center7 h2{
+	position: relative;
+	font-family: "Times New Roman",  Georgia;
+	font-size: 18px;
+	color: #006666;
+	font-weight: bold;
+}
+
+
+div#center7 label.formLabel {
+	display: block;
+	position: relative;
+	padding: 15px 0 2px 0;
+	font-family: "Times New Roman",  Verdana, Arial, Helvetica, serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 14px;
+	font-variant: normal;
+	color: #006666;
+	text-decoration: none;
+	text-align:justify;
+}
+
+div#center7 label.formLabel2 {
+	position: relative;
+	font-family: "Times New Roman",  Verdana, Arial, Helvetica, serif;
+	font-size: 12px;
+	padding-bottom: 2px;
+	font-style: normal;
+	line-height: 13px;
+	font-variant: normal;
+	color: #006666;
+	text-decoration: none;
+	text-align:justify;
+}
+
+div#center7 .formText {
+	display: block;
+    border: 1px solid #006666;
+	width: 160px;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 15px;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align:left;
+	padding-bottom: 5px;
+}
+
+div#center7 .formText2 {
+	display: block;
+	width: 300px;
+    border: 1px solid #006666;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 17px;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align:left;
+	padding-bottom: 5px
+}
+
+div#center7 .formText3 {
+	display: block;
+	width: 500px;
+    border: 1px solid #006666;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 15px;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: none;
+	text-align:left;
+	padding-bottom: 5px
+}
+
+div#center7 fieldset {
+	position: absolute;
+	top: 150px;
+	border-style: none;
+	background-color: #DFEFEF;
+	padding: 0 10px 5px 10px;
+}
+
+.css-carousel {
+	top: 300px;
+   left: 200px;
+	width: 100%;
+	height: 350px; /* Height of images */
+	position: relative;
+	overflow: hidden;
+}
+.css-carousel .css-img {
+	max-width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-animation: css-carousel-fade 30s linear infinite;
+	-moz-animation: css-carousel-fade 30s linear infinite;
+	-ms-animation: css-carousel-fade 30s linear infinite;
+	animation: css-carousel-fade 30s linear infinite;
+}
+.css-carousel .css-img:nth-child(2) {
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	animation-delay: 5s;
+}
+.css-carousel .css-img:nth-child(3) {
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	animation-delay: 10s;
+}
+.css-carousel .css-img:nth-child(4) {
+	-webkit-animation-delay: 15s;
+	-moz-animation-delay: 15s;
+	-ms-animation-delay: 15s;
+	animation-delay: 15s;
+}
+.css-carousel .css-img:nth-child(5) {
+	-webkit-animation-delay: 20s;
+	-moz-animation-delay: 20s;
+	-ms-animation-delay: 20s;
+	animation-delay: 20s;
+}
+.css-carousel .css-img:nth-child(6) {
+	-webkit-animation-delay: 25s;
+	-moz-animation-delay: 25s;
+	-ms-animation-delay: 25s;
+	animation-delay: 25s;
+}
+@-webkit-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@-moz-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@-ms-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@keyframes css-carousel-fade {
+	0%, 20%, 100% { opacity: 0; }
+	5%, 15% { opacity: 1;}
+}
+
